@@ -1,0 +1,45 @@
+.calc__wrapper {
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 3px;
+    border-radius: 6px;
+    border-color: #a598bf;
+    max-width: 100%;
+    min-width: 300px;
+    background-color: #20034f;
+    color: #fff;
+    padding: 6px;
+}
+
+.calc__screen {
+    background-color: #a598bf;
+    text-align: right;
+    margin: 6px;
+    padding: 0 6px;
+    border-radius: 3px;
+}
+
+.calc__button {
+    padding: 6px;
+    background-color: #320c6f;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.cel-1 {
+    flex-grow: 1;
+}
+
+.cel-2 {
+    flex-grow: 2;
+}
+
+.cel-4 {
+    flex-grow: 4;
+}
+
